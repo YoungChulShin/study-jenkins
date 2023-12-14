@@ -9,7 +9,6 @@ public class HelloController {
 
   @GetMapping("/hello")
   public ResponseEntity hello() {
-
     return ResponseEntity.ok().body("hello, jenkins");
   }
 }
